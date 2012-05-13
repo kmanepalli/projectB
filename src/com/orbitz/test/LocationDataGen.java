@@ -24,7 +24,7 @@ public class LocationDataGen {
             SolrServer solrLocServer = new CommonsHttpSolrServer("http://egcs02.prod.o.com:8982/location");
             
             FileReader fileReader = new FileReader("/Users/mkchakravarti/Documents/ans_mkt.txt");
-            System.out.println("really its here");
+            System.out.println("iam really its here");
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             List<String> lines = new ArrayList<String>();
             String line = null;
